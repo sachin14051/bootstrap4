@@ -1,0 +1,34 @@
+.mynavbar{
+ 
+    .nav-item{
+        .nav-link{
+            font-size: 1rem;
+        text-transform: uppercase;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    
+        }
+     
+    }
+
+    .active {
+        border-bottom: 3px solid $color-pri;
+        
+    }
+}
+
+
+
+ .mynavbar {
+   .navbar-brand{
+    width: 125px;
+   } 
+    img{
+        width: 100%;
+    }
+ }
+
+
+ footer{
+    background-color: $color-tri;
+ }

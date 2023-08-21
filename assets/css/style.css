@@ -1,0 +1,106 @@
+.carousel-inner .carousel-item {
+  height: 450px;
+}
+.carousel-inner .carousel-item > img {
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.carousel-inner .carousel-caption {
+  position: absolute;
+  top: 25%;
+  font-size: 1.2rem;
+  text-shadow: 1px 1px 1px 1px #000;
+}
+
+@media all and (max-width: 600px) {
+  button.btn.btn-primary {
+    display: block;
+    width: 100%;
+  }
+}
+.model a {
+  display: block;
+}
+.model a img {
+  height: 200px;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.owl-carousel .owl-nav button.owl-prev {
+  position: absolute;
+  left: -30px;
+  top: -10px;
+}
+.owl-carousel .owl-nav button.owl-next {
+  position: absolute;
+  right: 30px;
+  top: -10px;
+}
+
+.mytestimonal .item img {
+  width: 60% !important;
+  margin: 0 auto 10px;
+  border-radius: 50%;
+  border: 3px solid #fff;
+}
+
+.mynavbar .nav-item .nav-link {
+  font-size: 1rem;
+  text-transform: uppercase;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+.mynavbar .active {
+  border-bottom: 3px solid orange;
+}
+
+.mynavbar .navbar-brand {
+  width: 125px;
+}
+.mynavbar img {
+  width: 100%;
+}
+
+footer {
+  background-color: #000;
+}
+
+.icons h3 {
+  font-size: 1.8rem;
+}
+
+#homeheading, #homeheadingModel {
+  min-height: 200px;
+  background-image: url("../images/lights.jpg");
+  background-attachment: fixed;
+  -o-object-fit: cover;
+     object-fit: cover;
+  background-position: center;
+  position: relative;
+}
+#homeheading:before, #homeheadingModel:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+#homeheading .homecontent, #homeheadingModel .homecontent {
+  z-index: 10;
+  color: #fff !important;
+  width: 100%;
+  top: 20%;
+}
+#homeheading .homecontent h3, #homeheadingModel .homecontent h3 {
+  color: #fff;
+  font-size: 1.8rem;
+}
+
+#homeheadingModel {
+  background-image: url("../images/media.jpg");
+}

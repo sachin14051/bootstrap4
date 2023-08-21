@@ -1,0 +1,36 @@
+.carousel-inner{
+    .carousel-item{
+        height: 450px;
+        >img{
+         height: 100%;
+         object-fit: cover;
+        }
+        
+    }
+    .carousel-caption{
+        position: absolute;
+        top: 25%;
+        font-size: 1.2rem;
+        text-shadow: 1px 1px 1px 1px $color-tri
+    }
+
+  
+}
+
+
+@media all and (max-width:600px) {
+    button.btn.btn-primary {
+        display: block;
+        width: 100%;
+    }
+}
+
+
+.model a{
+  display: block;
+    img{
+height: 200px;   
+width: 100%;
+object-fit: cover;
+ }
+}

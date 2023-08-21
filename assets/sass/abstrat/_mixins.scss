@@ -1,0 +1,8 @@
+@mixin sticky($img){
+    min-height: 200px;
+    background-image: url($img);
+    background-attachment: fixed;
+    object-fit: cover;
+    background-position: center;
+    position: relative;
+}
